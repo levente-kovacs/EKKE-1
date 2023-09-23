@@ -1,0 +1,27 @@
+http://users.atw.hu/infokaracs/szovegszerk/szoveg.txt
+
+
+Étlap
+
+Levesek
+Halászlé	850 Ft
+Székelygulyás	660 Ft
+Erõleves	400 Ft
+
+Köretek
+Rizs	150 Ft
+Burgonyapüré	150 Ft
+Sült burgonya	200 Ft
+
+Fõételek
+Bárányborda	1200 Ft
+Pulykamell roston sütve	1000 Ft
+Grilltál	990 Ft
+
+Desszertek
+Palacsinta	500 Ft
+Dobostorta	400 Ft
+Gesztenyepüré	300 Ft
+
+Ételkülönlegességeink
+Spanyolos bikasült 2000 Ft.

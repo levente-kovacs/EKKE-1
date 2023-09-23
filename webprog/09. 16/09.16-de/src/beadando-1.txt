@@ -1,0 +1,5 @@
+Készítsen egy egyoldalas weblapot a saját önéletrajzával! Az oldal tartalmazzon egy képet is önről! A kép igazításához használja a align paramétert!
+Készítse el a heti órarendjének táblázatát! A dupla órákhoz használja a rowspan attribútumot!
+Készítsen egy két-három oldalas szöveget, melyben alkalmazza a címsorokat, a karakterstílusokat, valamint helyezzen el benne felsorolást is! Az oldalba illesszen be képet, egy videót és egy mp3 fájlt is! A szövegeket a Lorem Ipsum generátorral hozza létre! Az oldal alján szepepeljen egy link, amely az oldal tetejére viszi az olvasót, valamint adjon meg egy-két kapcsolódó linket is!
+Készítsen egy űrlapot, melyet kitöltve egy céges vacsorára lehet jelentkezni! Az űrlap tartalmazza a beküldő nevét, e-mail címét, egy legördülő listát a megyékkel (megyek.txt)lehessen kiválasztani, hogy az illető vegetariánus, vagy vegán menüt kér, és írhasson egy pár soros szabad szöveget is megjegyzésként. Az űrlapot a processit.php nevű programnak kell majd feldolgoznia. 
+Validálja az elkészíett lapok tartalmát, és javítsa az esetleges hibákat!

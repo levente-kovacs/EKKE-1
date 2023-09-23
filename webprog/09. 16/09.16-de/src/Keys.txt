@@ -1,0 +1,19 @@
+
+
+Kommentezés be- és kikapcsolása
+----------------------------------
+[CTRL]-K + [CTRL]-C : Comment 
+[CTRL]-K + [CTRL]-U : UnComment 
+
+Újabb kurzor letétele:
+alt + click 
+
+Blokk minden sor végére egy kurzor letétele:
+alt + shift + I
+
+Azonos szöveg kijelölése:
+ctrl-d
+
+
+
+table.default>((tr>th*2)(tr*2>td*2))*2

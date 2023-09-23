@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Űrlapok</title>
+</head>
+<body bgcolor="#F9EDCC" topmargin="30" leftmargin="30">
+
+    <h1>HTML Forms</h1>
+
+    <form action="feldolgoz.php" method="GET">
+
+        Név: <input name="nev" type="text" value="Koczka Ferenc">
+        Pass: <input name="pwd" type="password" value="aaa">
+
+        <br><br>
+        Húsevő: <input type="radio" name="vega" value="1">    
+        Vega: <input type="radio" name="vega" value="2" checked>
+        Vegán: <input type="radio" name="vega" value="3">
+
+        <br><br>
+        Eper: <input type="checkbox" name="fagyi_eper" value="1">
+        Csokoládé: <input type="checkbox" name="fagyi_csoki" value="1" checked>
+        Pisztácia: <input type="checkbox" name="fagyi_pisztacia" value="1">        
+
+        <br><br>
+        Megye:
+        <select name="megye">
+            <option>Bács-Kiskun</option>
+            <option>Baranya</option>
+            <option>Békés</option>
+            <option>Borsod-Abaúj-Zemplén</option>
+            <option>Budapest</option>
+            <option>Csongrád</option>
+            <option>Fejér</option>
+            <option>Győr-Moson-Sopron</option>
+            <option selected>Hajdú-Bihar</option>
+            <option>Heves</option>
+            <option>Jász-Nagykun-Szolnok</option>
+            <option>Komárom-Esztergom</option>
+            <option>Nógrád</option>
+            <option>Pest</option>
+            <option>Somogy</option>
+            <option>Szabolcs-Szatmár-Bereg</option>
+            <option>Tolna</option>
+            <option>Vas</option>
+            <option>Veszprém</option>
+            <option>Zala</option>
+        </select>
+
+        <br><br>
+        <textarea name="comment" cols="80" rows="4">Megjegyzés</textarea>
+
+        <br><br>
+
+        <input type="button" name="btn"    value="Részletek">
+        <input type="submit" name="submit" value="Küldés">        
+        <input type="reset"  name="reset"  value="Alaphelyzet">
+
+    </form>
+
+
+</body>
+</html>

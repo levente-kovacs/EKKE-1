@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&display=swap');
+
+html, body {
+    height: 100vh;
+    line-height: 120%;
+    font-size: 14px;
+}
+
+main {
+    height: 850px;
+    width: 600px;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 13px 40px 4px, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    /* box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; */
+    /* box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px; */
+}
+
+.content-header {
+    z-index: 1;
+}
+
+.content-body {
+    z-index: 2;
+}
+
+.personal-info {
+    z-index: -2;
+}
+
+.personal-info h1, h5 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.personal-info h1 {
+    font-size: 2.38rem;
+    text-transform: uppercase;
+}
+
+.personal-info h5 {
+    font-size: 1.1rem;
+    text-transform: uppercase;
+}
+
+.personal-info hr {
+    height: 0.1rem;
+}
+
+.personal-info p {
+    padding: 0.15rem 0.6rem;
+    border-radius: 1rem;
+    width: 80%;
+}
+
+.personal-info p a {
+    color: white;
+}
+
+.personal-icon {
+    position: absolute;
+    left: 6.8rem;
+}
+
+/* .personal-info p a:hover {
+    -webkit-text-decoration-color: rgb(3, 41, 51);
+    text-decoration-color: rgb(3, 41, 51);
+} */
+
+h6 {
+    font-weight: bold;
+    text-transform: uppercase;
+    width: min-content;
+    white-space: nowrap;
+    border-radius: 1rem;
+    font-weight: bolder;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+aside h6 {
+    padding: 0.2rem 0.6rem;
+    background-color: white;
+    color: rgb(4, 52, 66);
+    font-size: small;
+}
+
+section h6 {
+    background-color: rgb(229, 231, 231);
+    color: rgb(4, 52, 66);
+    padding: 0.25rem 0.8rem;
+    width: 9rem;
+}
+
+section p {
+    padding-left: 0.8rem;
+}
+
+aside form, p {
+    padding-left: 0.8rem;
+}
+
+.profile-border {
+    height: 13.5rem;
+    width: 13.5rem;
+    border-radius: 13.5rem;
+    border:  1.3rem solid white;
+    box-sizing: content-box;
+    background-color: white;
+    position: absolute;
+    top: 0;
+    left: 1rem;
+    z-index: -1;
+}
+
+.profile-pic {    
+    height: 13.5rem;
+    width: 13.5rem;
+    border-radius: 13.5rem;
+    background-color: rgb(229, 231, 231);
+    position: absolute;
+    top: 1.3rem;
+    left: 2.3rem;
+    z-index: 1;
+}
+
+.skills {
+    line-height: 1.14rem;
+}
+
+.skill-range:disabled {
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: #032933;
+    margin: 0;
+    padding: 0;
+    width: 10rem;
+    height: 0.6rem;
+    overflow: hidden;
+    position: relative;
+    top: -0.1rem;
+}
+
+.skill-range:disabled::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 0;
+    box-shadow: -20rem 0 0 20rem white;
+}
+
+.skill-range:disabled::-moz-range-thumb {
+    border: none;
+    width: 0;
+    box-shadow: -20rem 0 0 20rem white;
+}
+
+.title-wrapper {
+    /* overflow: hidden; */
+    position: relative;
+}
+
+.title-line {
+    height: 0.5rem;
+    border: none;
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+    border-radius: 2rem;
+    background: linear-gradient(310deg, #e5e7e7 0 15%, #e5e7e7 0, transparent 15% 17%, #e5e7e7 17% 20%, transparent 20% 22%, #e5e7e7 22% 45%, transparent 45% 47%, #e5e7e7 47% 50%, transparent 50% 52%, #e5e7e7 52% 55%, transparent 55% 57%, #e5e7e7 0, #e5e7e7 57% 100%);
+}
+
+.title-line::after {
+    position: relative;
+    top: 20rem;
+    left: 20rem;
+    height: 20rem;
+    width: 15rem;
+    z-index: 10;
+    background-color: aqua;
+
+}
+
+.title-content {
+    display: block;
+    width: 100%;
+}
+
+.title-icon {
+    padding: 0.15rem;
+    width: 1.6rem;
+    height: 1.6rem;
+    border-radius: 50%;
+    text-align: center;
+    font-size: smaller;
+}
+
+.hobbies {
+    height: 5.5rem;
+    position: absolute;
+    bottom: 0.2rem;
+    left: -1rem;
+    width: calc(100% + 1rem);
+    border-radius: 2.5rem 0 0 2.5rem;
+    border: 0.7rem solid white;
+    border-right: 0;
+}
+
+.hobbies h6 {
+    margin: 0 1rem 0;
+    background-color: white;
+}
+
+.hobbies i {
+    font-size: 1.5rem;
+    color: rgb(4, 52, 66);
+    padding: 0 0.5rem;
+}
+
+.w-max-content {
+    width: max-content;
+    white-space: nowrap;
+}
+
+.w-min-content {
+    width: min-content;
+    white-space: nowrap;
+}
+
+.h-min-content {
+    height: min-content;
+    white-space: nowrap;
+}
+
+.bg-peacock {
+    background-color: rgb(4, 52, 66);
+}
+
+.bg-light-grey {
+    background-color: rgb(229, 231, 231);
+}
+
+.text-peacock {
+    color: rgb(4, 52, 66);
+}
