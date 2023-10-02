@@ -11,8 +11,6 @@ main {
     width: 600px;
     margin: auto;
     box-shadow: rgba(0, 0, 0, 0.5) 0px 13px 40px 4px, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
-    /* box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; */
-    /* box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px; */
 }
 
 .content-header {
@@ -59,11 +57,6 @@ main {
     position: absolute;
     left: 6.8rem;
 }
-
-/* .personal-info p a:hover {
-    -webkit-text-decoration-color: rgb(3, 41, 51);
-    text-decoration-color: rgb(3, 41, 51);
-} */
 
 h6 {
     font-weight: bold;
@@ -152,7 +145,6 @@ aside form, p {
 }
 
 .title-wrapper {
-    /* overflow: hidden; */
     position: relative;
 }
 
@@ -174,7 +166,6 @@ aside form, p {
     width: 15rem;
     z-index: 10;
     background-color: aqua;
-
 }
 
 .title-content {

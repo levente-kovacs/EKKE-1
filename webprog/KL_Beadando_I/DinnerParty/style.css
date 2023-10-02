@@ -1,0 +1,89 @@
+body {
+    min-height: 100vh;
+    width: 100vw;
+    background: linear-gradient(52deg, #002020, #151515);
+    padding-top: 2rem;
+}
+
+.color-1 {
+    background-color: #151515;
+    height: 10rem;
+}
+
+.color-2 {
+    background-color: #0a0a0a;
+    height: 10rem;
+}
+
+.color-3 {
+    background-color: #fbfcd4;
+    height: 10rem;
+}
+
+.color-4 {
+    background-color: #ffdd03;
+    height: 10rem;
+}
+
+.color-5 {
+    background-color: #fbc403;
+    height: 10rem;
+}
+
+.title-wrapper {
+    margin-bottom: 3rem;
+}
+
+.first-line {
+    font-size: 2.67rem !important;
+}
+
+.last-line {
+    font-size: 2.24rem !important;
+}
+
+.menu-title {
+    font-size: 2.2rem !important;
+}
+
+/* TOGGLE BUTTON */
+input[type="checkbox"] {
+    margin: 10px;
+    position: relative;
+    width: 3rem;
+    height: 1rem;
+    appearance: none;
+    -webkit-appearance: none;
+    outline: none;
+    border-radius: 20px;
+    cursor: pointer;
+    background: linear-gradient(0deg, #6bffff, #01bfbf);
+    box-shadow: 0 0 0 4px #353535, 0 0 0 5px #3e3e3e, inset 0 0 10px rgba(0,0,0,1);
+}
+
+input:checked[type="checkbox"] {
+    background: linear-gradient(0deg, #70ffc1, #03db1f);
+    box-shadow: 0 0 0 4px #353535, 0 0 0 5px #3e3e3e, inset 0 0 10px rgba(0,0,0,1);
+}
+
+input[type="checkbox"]:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 2rem;
+    height: 1rem;
+    background: linear-gradient(0deg, #000, #6b6b6b);
+    border-radius: 20px;
+    box-shadow: 0 0 0 1px #232323;
+    transform: scale(.98,.96);
+    transition:.5s;
+}
+
+input:checked[type="checkbox"]:before {
+    left: 1rem;
+}
+
+input:checked[type="checkbox"]:after {
+    left: 2.42rem;
+}
